@@ -1,7 +1,6 @@
 ﻿using api_filmes_senai.Context;
 using api_filmes_senai.Domains;
 using api_filmes_senai.Interfaces;
-using Microsoft.Identity.Client;
 
 namespace api_filmes_senai.Repositories
 {

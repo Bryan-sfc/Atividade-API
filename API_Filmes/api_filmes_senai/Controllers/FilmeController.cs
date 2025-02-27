@@ -91,5 +91,21 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        //criar o endpoint e testar para filtro de filmes
+        [HttpGet("ListarPorGenero/{id}")]
+        public IActionResult GetByGenero(Guid id)
+        {
+            try
+            {
+                List<Filme> ListaDeFilmesPorGenero = _filmeRepository.ListarPorGenero(id);
+
+                return Ok(ListaDeFilmesPorGenero);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }

@@ -79,6 +79,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "api_filmes_senai.Controllers.FilmeController",
+    "Method": "GetByGenero",
+    "RelativePath": "api/Filme/ListarPorGenero/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "api_filmes_senai.Controllers.GeneroController",
     "Method": "Get",
     "RelativePath": "api/Genero",

@@ -82,21 +82,28 @@ namespace api_filmes_senai.Repositories
             }
         }
 
+        public List<Filme> Listar()
+        {
+            List<Filme> ListaDeFilme = _context.Filme.ToList();
+
+            return ListaDeFilme;
+        }
+
         public List<Filme> ListarPorGenero(Guid idGenero)
         {
             try
             {
-                List<Filme> listaDeFilmes = _context.Filme
+                List<Filme> ListaDeFilmes = _context.Filme
+                    
+                    .Include(g => g.Genero)
+                    .Where(f => f.IdGenero == idGenero)
+                    .ToList();
 
-                .Include(g => g.Genero)
-                .Where(f == f.idGenero == idGenero)
-                .ToList();
-
-                return listaDeFilmes;
-
+                return ListaDeFilmes;
             }
             catch (Exception)
             {
+
                 throw;
             }
         }

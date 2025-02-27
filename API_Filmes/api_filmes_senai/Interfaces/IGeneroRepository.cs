@@ -1,5 +1,4 @@
-﻿
-using api_filmes_senai.Domains;
+﻿using api_filmes_senai.Domains;
 
 namespace api_filmes_senai.Interfaces
 {
@@ -20,6 +19,7 @@ namespace api_filmes_senai.Interfaces
         List<Genero> Listar();
 
         void Atualizar(Guid id, Genero genero);
+
         void Deletar(Guid id);
 
         Genero BuscarPorId(Guid id);
