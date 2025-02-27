@@ -172,5 +172,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_filmes_senai.Controllers.UsuarioController",
+    "Method": "Post",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "api_filmes_senai.Domains.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
