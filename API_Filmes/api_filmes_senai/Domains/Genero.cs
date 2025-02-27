@@ -11,5 +11,10 @@ namespace api_filmes_senai.Domains
         [Column(TypeName = "VARCHAR(30)")]
         [Required(ErrorMessage = "Nome do gênero é obrigatório!")]
         public string? Nome { get; set; }
+
+        public static implicit operator Genero(Filme v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

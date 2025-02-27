@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\context\\filmes_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:context\\filmes_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|c:\\users\\55890867873\\desktop\\api_filmes\\api_filmes\\api_filmes_senai\\interfaces\\ifilmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA02760-7436-4B47-9B9B-109106D14F95}|api_filmes_senai.csproj|solutionrelative:interfaces\\ifilmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,45 +25,57 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 234,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Interfaces\\IGeneroRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IGeneroRepository.cs",
-              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Interfaces\\IGeneroRepository.cs",
-              "RelativeToolTip": "Interfaces\\IGeneroRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Filmes_Context.cs",
+              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Context\\Filmes_Context.cs",
+              "RelativeDocumentMoniker": "Context\\Filmes_Context.cs",
+              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Context\\Filmes_Context.cs",
+              "RelativeToolTip": "Context\\Filmes_Context.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T19:35:30.043Z"
+              "WhenOpened": "2025-02-25T19:06:07.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFilmeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Interfaces\\IFilmeRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IFilmeRepository.cs",
+              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Interfaces\\IFilmeRepository.cs",
+              "RelativeToolTip": "Interfaces\\IFilmeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:03:31.7Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Repositories\\GeneroRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
-              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Repositories\\GeneroRepository.cs",
-              "RelativeToolTip": "Repositories\\GeneroRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAAJAAAAAAAAAA==",
+              "Title": "FilmeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Repositories\\FilmeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FilmeRepository.cs",
+              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Repositories\\FilmeRepository.cs",
+              "RelativeToolTip": "Repositories\\FilmeRepository.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwFsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T18:48:12.403Z",
+              "WhenOpened": "2025-02-25T17:49:30.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Controllers\\GeneroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Controllers\\GeneroController.cs",
-              "RelativeToolTip": "Controllers\\GeneroController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FilmeController.cs",
+              "DocumentMoniker": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Controllers\\FilmeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmeController.cs",
+              "ToolTip": "C:\\Users\\55890867873\\Desktop\\api_filmes\\API_Filmes\\api_filmes_senai\\Controllers\\FilmeController.cs",
+              "RelativeToolTip": "Controllers\\FilmeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T19:09:37.546Z"
+              "WhenOpened": "2025-02-25T17:29:56.628Z"
             }
           ]
         }
