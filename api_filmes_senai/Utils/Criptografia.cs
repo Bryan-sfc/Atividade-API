@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Formatters;
-
-namespace api_filmes_senai.Utils
+﻿namespace api_filmes_senai.Utils
 {
     public static class Criptografia
     {
@@ -11,7 +9,7 @@ namespace api_filmes_senai.Utils
 
         public static bool CompararHash(string senhaInformada, string senhaBanco)
         {
-            return BCrypt.Net.BCrypt.Verify(senhaInformada, senhaBanco);
+            return BCrypt.Net.BCrypt.Verify(senhaInformada, senhaBanco);    
         }
 
 

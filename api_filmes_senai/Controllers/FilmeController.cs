@@ -18,6 +18,11 @@ namespace api_filmes_senai.Controllers
             _filmeRepository = filmeRepository;
         }
 
+        /// <summary>
+        /// Endpoint  para Listar Todos os Filmes no Banco de Dados
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -32,6 +37,12 @@ namespace api_filmes_senai.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        /// <summary>
+        /// Endpoint  para Adicionar Um Filme no Banco de Dados
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Post(Filme novoFilme)
         {
@@ -47,6 +58,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        /// <summary>
+        /// Endpoint  para Buscar um Filme Pelo Seu Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("BuscarPorId/{id}")]
         public IActionResult GetById(Guid id)
         {
@@ -62,6 +78,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        /// <summary>
+        /// Endpoint  para Deletar um Gênero Pelo Seu Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {
@@ -77,6 +98,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
+        /// <summary>
+        /// Endpoint  para Atualizar Um Filme Pelo Seu Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Filme filme)
         {
@@ -92,7 +118,11 @@ namespace api_filmes_senai.Controllers
             }
         }
 
-        //criar o endpoint e testar para filtro de filmes
+        /// <summary>
+        /// Endpoint  Para Buscar Um Livro Pelo Gênero
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("ListarPorGenero/{id}")]
         public IActionResult GetByGenero(Guid id)
         {

@@ -1,5 +1,4 @@
-﻿using System.Runtime.ConstrainedExecution;
-using api_filmes_senai.Context;
+﻿using api_filmes_senai.Context;
 using api_filmes_senai.Domains;
 using api_filmes_senai.Interfaces;
 using api_filmes_senai.Utils;
@@ -41,7 +40,7 @@ namespace api_filmes_senai.Repositories
                 {
                     return usuarioBuscado;
                 }
-                return null;
+                return null!;
             }
             catch (Exception)
             {
@@ -64,7 +63,7 @@ namespace api_filmes_senai.Repositories
                         return usuarioBuscado;
                     }
                 }
-                return null;
+                return null!;
             }
             catch (Exception)
             {
