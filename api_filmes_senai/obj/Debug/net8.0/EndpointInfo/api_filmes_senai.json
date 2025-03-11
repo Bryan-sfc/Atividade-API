@@ -88,7 +88,7 @@
         "tags": [
           "Filme"
         ],
-        "summary": "Endpoint  para Deletar um Gênero Pelo Seu Id",
+        "summary": "Endpoint  para Deletar um Filme Pelo Seu Id",
         "parameters": [
           {
             "name": "id",
@@ -487,6 +487,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Value: Bearer TokenJWT ",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

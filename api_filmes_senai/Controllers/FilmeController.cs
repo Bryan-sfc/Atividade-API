@@ -79,7 +79,7 @@ namespace api_filmes_senai.Controllers
         }
 
         /// <summary>
-        /// Endpoint  para Deletar um Gênero Pelo Seu Id
+        /// Endpoint  para Deletar um Filme Pelo Seu Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>

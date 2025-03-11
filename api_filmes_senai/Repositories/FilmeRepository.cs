@@ -84,9 +84,18 @@ namespace api_filmes_senai.Repositories
 
         public List<Filme> Listar()
         {
-            List<Filme> ListaDeFilme = _context.Filme.ToList();
+            try
+            {
+                List<Filme> ListaDeFilme = _context.Filme.Include(g => g.Genero).ToList();
 
-            return ListaDeFilme;
+                return ListaDeFilme;
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<Filme> ListarPorGenero(Guid idGenero)
